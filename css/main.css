@@ -55,6 +55,7 @@ a:hover {
 
 .overlay.start {
 	display: block;
+	background: black;
 }
 
 .cover {
