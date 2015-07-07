@@ -54,7 +54,7 @@ $(document).ready(function () {
 	});
 
 
-	$('.cover .close').live('click', function(e) {
+	$('.cover .close').on('click', function(e) {
 		e.preventDefault();
 		closeLargeImageView();
 	});	

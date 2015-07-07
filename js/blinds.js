@@ -7,6 +7,8 @@ $(document).ready(function () {
 	var how_tall = height/20;
 	var how_tall = 35;
 
+	$('body').css('overflow', 'hidden');
+	
 	var $overlay = $('.overlay');
 	$overlay.css({
 		'opacity':'1',
